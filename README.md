@@ -1,10 +1,40 @@
-# Superstore-Dashboard
-The Sample - Superstore.csv dataset holds 9,994 sales transactions from a fictional store. It includes order, customer, product, sales, discount, and profit details. Technology leads sales at $836K, followed by Furniture and Office Supplies.
-he West region generates the highest revenue, ahead of East, Central, and South.
-Top products like the Canon imageCLASS 2200 drive both sales and profit growth.
-# Data content
-U.S. retail sales orders with details on customer, location, product, sales amount, quantity, discount, and profit.
-# Key columns
-Order ID, Order Date, Ship Date, Customer ID, Product ID, Category, Sub-Category, Sales, Quantity, Profit.
-# Data cleaning
-Check for missing values in postal codes, standardize date formats, handle negative profit values, remove duplicates based on Row ID.
+📊 Sales Performance Dashboard
+
+📌 Objective
+
+The goal of this project is to create a basic interactive dashboard that shows sales performance by product, region, and month. This dashboard helps summarize sales data visually, making it easier for business users to identify trends and insights.
+📂 Dataset
+
+Superstore_Sales.csv
+
+Columns: Order Date, Region, Category, Sales, Profit
+You may also use any dataset with similar fields.
+# Dataset Description
+The dataset used is the classic Superstore Dataset, commonly used for data visualization projects. It includes:
+
+Order information (Order ID, Date, Segment, Region)
+
+Customer demographics
+
+Product details
+
+Sales, Profit, and Quantity metrics
+# Dashboard Features:
+KPI Cards displaying Total Quantity, Total Profits, and Total Sales.
+
+Pie and Donut Charts for regional and segment sales breakdown.
+
+Map Visualization showing state-wise sales distribution.
+
+Bar Charts showing:
+🛠 Tools Used
+
+Power BI or Tableau (choose one)
+
+(Optional) Python + Pandas for data cleaning
+
+
+
+Sales by sub-category and region.
+
+Sales trends by order year.
